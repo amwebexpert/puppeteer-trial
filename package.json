@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-trial",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.2.1"
+  }
+}

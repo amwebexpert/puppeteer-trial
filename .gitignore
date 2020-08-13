@@ -1,0 +1,26 @@
+tmp/
+htdocs/
+subdomains/surveywall/style/build/survey-wall.css
+dump.rdb
+subdomains/**/*.map
+tests/**/dist
+autoinstaller.local.json
+TODO.md
+spec/automated/output/
+node_modules/
+subdomains/*/dist/
+coverage
+stats.json
+
+# don't commit jsdoc generated documentation
+docs/generated/jsdoc
+
+# here until @samuelmburu makes rbp build folder dist
+subdomains/*/build/
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode/
+*.iml
